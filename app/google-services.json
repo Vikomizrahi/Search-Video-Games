@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "560477924973",
+    "project_id": "searchvideogames-5ff19",
+    "storage_bucket": "searchvideogames-5ff19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:560477924973:android:8fce17ea0367ffe1361964",
+        "android_client_info": {
+          "package_name": "com.example.searchvideogames"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVAEf_ipWA91JDaZZQPeWxY3VhxNnoUQo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

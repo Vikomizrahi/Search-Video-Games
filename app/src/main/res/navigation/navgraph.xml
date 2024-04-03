@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraph"
+    app:startDestination="@id/fragmentLogin">
+
+    <fragment
+        android:id="@+id/fragmentLogin"
+        android:name="com.example.searchvideogames.Fragments.FragmentLogin"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentAccount"
+            app:destination="@id/fragmentAccount" />
+        <action
+            android:id="@+id/action_fragmentLogin_to_fragmentAllGames"
+            app:destination="@id/fragmentAllGames" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAccount"
+        android:name="com.example.searchvideogames.Fragments.FragmentAccount"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" >
+        <action
+            android:id="@+id/action_fragmentAccount_to_fragmentAllGames"
+            app:destination="@id/fragmentAllGames" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentAllGames"
+        android:name="com.example.searchvideogames.Fragments.FragmentAllGames"
+        android:label="fragment_all_games"
+        tools:layout="@layout/fragment_all_games" />
+</navigation>
